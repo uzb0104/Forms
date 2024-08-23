@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Forms</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <div class="container">
+            <div class="page">
+                <div class="header__logo-text">
+                    <a class="header__logo-link" href="#">
+                        <img class="header__logo-img" src="./icons/google-forms8392.jpg" alt="#">
+                    </a>
+                    <h1>New Forms</h1>
+                </div>
+
+                <ul class="header__items">
+                    <li class="header__items-element">
+                        <a class="header__items-link" href="#"><i class="fa-solid fa-palette"></i></a>
+                    </li>
+                    <li class="header__items-element">
+                        <a class="header__items-link" href="#"><i class="fa-regular fa-eye"></i></a>
+                    </li>
+                    <li class="header__items-element">
+                        <a class="header__items-link" href="#"><i class="fa-solid fa-arrow-left"></i></a>
+                    </li>
+                    <li class="header__items-element">
+                        <a class="header__items-link" href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </li>
+                    <li class="header__items-element">
+                        <button class="header__items-btn">Send</button>
+                    </li>
+                    <li class="header__items-element">
+                        <a class="header__items-link" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </li>
+                    <li class="header__items-element">A</li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__middle-text">
+            <p>Questions</p>
+            <p>Answers</p>
+            <p>Settings</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container">
+            <div class="home">
+                <div class="home__input">
+                    <div class="home__input-text">
+                        <h1>New form</h1>
+                        <hr />
+                        <label>
+                            <input type="text" name="Description" id="Description" placeholder="Description">
+                        </label>
+                    </div>
+                    <div class="home__input-text2" id="add-new-question">
+                        <h3>Question without title</h3>
+                        <label><input type="radio" name="option1" id="option1"> Вариант 1</label>
+                        <label><input type="radio" name="option1" id="option1"> Add option</label>
+                    </div>
+                </div>
+                <ul class="home__icons">
+                    <li class="home_icons-items" id="add-new-icon"><i class="fa-solid fa-circle-plus"></i></li>
+                    <li class="home_icons-items"><i class="fa-solid fa-right-from-bracket"></i></li>
+                    <li class="home_icons-items"><i class="fa-solid fa-t"></i></li>
+                    <li class="home_icons-items"><i class="fa-regular fa-image"></i></li>
+                    <li class="home_icons-items"><i class="fa-brands fa-square-youtube"></i></li>
+                    <li class="home_icons-items"><i class="fa-solid fa-equals"></i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
